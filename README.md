@@ -34,6 +34,7 @@ html:
 </html>
 
 css:
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
 
 * {
@@ -46,15 +47,14 @@ h1{
   font-size: 70px;
   font-weight: bold;
 }
+
 h3{
   text-align: center;
   font-size:40px;
   font-weight: bold;
   float: left;
 }
-
-
-body {
+.body {
   background-image:url(image/260743-music-wallpaper-1920x1080.jpg);
   font-family: "Poppins", sans-serif;
   display: flex;
@@ -86,7 +86,9 @@ body {
 .btn:focus {
     outline: none;
 }
+
 javascript:
+
 const sounds = ["happy", "sad", "love", "Horror", "Mashup", "Old"];
 
 sounds.forEach((sound) => {
